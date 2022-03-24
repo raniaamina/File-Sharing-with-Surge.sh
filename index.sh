@@ -9,13 +9,13 @@ cat > index.html  << EOF
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>List Files</title>
+    <title>File Sharing with Surge.sh</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body class="text-white" style="background: #262626;">
 <div class="container p-3 pt-5">
 EOF
-echo "<h4 class=\"\">Berbagi Berkas Surge.sh</h4><hr>" >> index.html
+echo "<h4 class=\"\">Berbagi Berkas dengan Surge.sh</h4><hr>" >> index.html
 echo "<h5 class=\"\">Daftar Berkas</h5><div style='height:2px; width:25px; background:#55acee; margin-bottom:10px'></div>" >> index.html
 echo "<ul class=\"list-unstyled\">" >> index.html
 for data in *; do
